@@ -1,0 +1,80 @@
+﻿@font-face {
+    font-family: myfont;
+    src: url('../Content/fonts/GE_SS_Two_Bold.otf')
+}
+
+@font-face {
+    font-family: myfont2;
+    src: url('../Content/fonts/DroidKufi-Regular.ttf')
+}
+
+body {
+}
+
+
+.navbar-default {
+    background-color: #BBBBBB;
+    border-color: #e33131;
+}
+
+    .navbar-default .navbar-nav > li > a {
+        color: #f5f5f5;
+        font-family: myfont;
+    }
+
+        .navbar-default .navbar-nav > li > a:hover {
+            color: #000000;
+        }
+
+
+.nav > li {
+    position: relative;
+    display: block;
+    padding-top: 10px;
+    height: 4em;
+}
+
+.navbar-brand > img {
+    margin: -0.5em;
+    /* display: block; */
+    /* padding-top: 0.5em; */
+    width: 3em;
+    height: 3em;
+    border: solid;
+    border-radius: 50px;
+}
+
+.myfooter {
+    text-align: justify;
+    background-color: #BBBBBB;
+    font-family: myfont;
+    list-style: none;
+    color: #f5f5f5;
+    border-color: #e33131;
+}
+
+    .myfooter > p, h3, ul {
+        margin-bottom: 1.5em;
+        font-family: myfont2;
+    }
+
+    .myfooter p {
+        color: #092020;
+    }
+
+
+    .myfooter ul {
+        list-style: none;
+        margin-bottom: 0.5em
+    }
+
+.subFooter {
+    background-color: #4e4e4e;
+    text-align: center;
+    padding: 0.5em;
+    color: #7aa6cc;
+}
+
+    .subFooter p {
+        color: #7aa6cc;
+    }
